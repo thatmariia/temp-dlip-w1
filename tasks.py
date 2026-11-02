@@ -30,8 +30,8 @@ def step(x):
 
 # Your code here:
 # -----------------------------------------------
-def ReLu
-
+def ReLu(x, cutoff=0):
+    return numpy.maximum(x, cutoff)
 
 # -----------------------------------------------
 
